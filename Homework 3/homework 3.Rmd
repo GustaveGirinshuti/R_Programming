@@ -1,0 +1,38 @@
+---
+title: "Homework 3"
+author: "Gustave" 
+date: "2026-11-01"
+output: html_document
+---
+# Question 1
+```{r}
+# Create a function in R
+
+summary_stats<-function(x) {
+  results <- c(
+    count = length(x),
+    Mean = mean(x),
+    Median = median(x),
+    Minimum = min(x),
+    Maximum = max(x),
+    Variance = var(x),
+    Standard_Deviation = sd(x)
+  )
+  return(results)
+}
+
+# Create a variable containing students marks
+
+students_marks <- c(60, 70, 75, 80, 85, 90, 95)
+
+# now we Applying the function to the variable
+summary_stats(students_marks)
+```
+
+# Question 2
+
+```{r}
+
+
+```
+

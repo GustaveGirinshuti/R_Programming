@@ -1,0 +1,62 @@
+---
+title: "Control Structure"
+author: "Gustave"
+date: "2026-11-01"
+output: html_document
+---
+```{r}
+
+
+# Control Structures 
+?runif
+
+# If condition
+x<-runif(20,0,100)
+x
+hist(x)
+y<-rnorm(100)
+hist(y)
+mean(y)
+sd(y)
+
+
+x1<-runif(1,0,10)
+x1
+if(x1>3){
+  print("x1 is greater than three")
+} else {
+  print(" x1 is less or equal to three")
+}
+
+# For condition
+
+x<-c("a","b","c","d")
+
+
+# while
+
+count<-1
+while (count<10){
+print(count)
+count<-count+1
+}
+
+###### set seed
+
+z<-5
+set.seed(1)
+while (z>=3 && z<= 10) {
+coin
+}
+
+#Next and Break
+
+for (i in 1:100){
+  print(1:i)
+}
+if (i>20){
+  break
+}
+
+
+```
